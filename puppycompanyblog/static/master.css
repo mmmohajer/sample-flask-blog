@@ -1,0 +1,80 @@
+body{
+	background: linear-gradient(89deg, #FF5EDF 0%, #04c8DE 100%);
+	color: white;
+	font-family: "Georgia";
+}
+
+.card, .card-body, .jumbotron{
+	background: none;
+	text-align: center;
+}
+
+.jumbotron{
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.all-cards{
+	max-width:100%;
+	width: 50rem;
+	height:auto;
+	margin:0 auto;
+}
+
+.card{
+	margin: 25px;
+	border: dashed 1.5px;
+	border-radius: 25px;
+	transition: all .5s ease-in-out;
+}
+
+.card:hover{
+	transform: scale(1.1);
+}
+
+a{
+	color: yellow;
+}
+
+.btn, .btn-primary{
+	background-color: gray;
+}
+
+.card-body p{
+	padding: 10px;
+}
+
+.mynav{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.mynav li{
+	margin: 0 40px;
+}
+
+.myinfo{
+	text-align: left;
+	line-height: 300%;
+	text-align: justify;
+}
+
+.mylogin, .myregister{
+	border: 2px dotted;
+	border-radius: 15px;
+	width: 50rem;
+	margin: 50px auto;
+	max-width: 100%;
+	padding: 0;
+}
+
+.form-group{
+	margin: 40px auto;
+	padding: 0;
+}
+
+.mybutton{
+	background-color: yellow;
+	width: 250px;
+}
